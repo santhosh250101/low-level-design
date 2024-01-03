@@ -7,6 +7,9 @@
 
 ## decorator is (has a + is a)
 
+# is a relation: since decorator class extends base class.
+# has a relation: since target class has instance of base class. 
+
 # why decorator pattern is needed
 # consider we have a pizza shop where we sell veg pizza,chicken pizza
 # so we create base class pizza and veg pizza, chicken pizza extends pizza.
@@ -20,5 +23,4 @@
 # same combination repeats for chicken pizza as well.
 
 # so in order to avoid creatign too many classes, we create decorator for pizza
-
 
